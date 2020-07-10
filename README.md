@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open [Type-speed-test](https://0it3y.csb.app/) to see the preview.
 
 ## Available Scripts
 

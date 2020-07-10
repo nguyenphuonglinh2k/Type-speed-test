@@ -1,4 +1,4 @@
-Open [Type-speed-test](https://0it3y.csb.app/) to see the preview.
+**Open [Type-speed-test](https://0it3y.csb.app/) to see the preview.**
 
 ## Available Scripts
 

@@ -1,13 +1,2 @@
-@media (max-width: 1200px) { 
-    .container {
-        display: none;
-    }
 
-    .App::after {
-        content: 'This feature is just supported for Computer!';
-        font-size: inherit;
-        display: flex;
-        justify-content: center;
-        font-weight: 500;
-    }
-}
+  

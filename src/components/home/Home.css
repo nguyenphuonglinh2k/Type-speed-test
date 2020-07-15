@@ -1,0 +1,79 @@
+@media (max-width: 575.98px) {
+    .Home img {
+      width: calc(100% / 1.3) !important;
+    }
+  
+    .Home div {
+      font-size: 8vw !important;
+    }
+  
+    .Home button {
+      padding: 7px 30px;
+      font-size: 5vw !important;
+    }
+  }
+  
+  .Home {
+    height: 100vh;
+    background: rgb(153, 247, 226);
+    background: linear-gradient(
+      180deg,
+      rgba(153, 247, 226, 1) 0%,
+      rgba(250, 255, 209, 1) 100%
+    );
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Home img {
+    width: 450px;
+    margin-bottom: 30px;
+  }
+  
+  .Home div {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #041733;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Home button {
+    background: rgb(17, 153, 142);
+    background: linear-gradient(
+      83deg,
+      rgba(17, 153, 142, 1) 0%,
+      rgba(56, 239, 125, 1) 100%
+    );
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 1s;
+  }
+  
+  .Home button:focus {
+    outline: none;
+  }
+  
+  .Home button:hover {
+    background: rgb(17, 153, 142);
+    background: linear-gradient(
+      270deg,
+      rgba(17, 153, 142, 1) 0%,
+      rgba(56, 239, 125, 1) 100%
+    );
+  }
+  

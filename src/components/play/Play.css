@@ -1,0 +1,104 @@
+@media (max-width: 575.98px) {
+    .Play .try-play div:nth-child(1) img {
+      width: 50px !important;
+      animation: ride-mobile 60s linear 5s forwards !important;
+    }
+  
+    .Play .try-play .line-race {
+      top: 140px !important;
+    }
+  
+    .Play .try-play div:nth-child(3) {
+      top: 180px !important;
+    }
+  
+    .Play .try-play div:nth-child(3) #paragraph {
+      height: 150px !important;
+      overflow: auto !important;
+    }
+  }
+  
+  body {
+    background-image: url("https://cdn.glitch.com/af45ea57-cc17-431c-a29e-191393077cfe%2Fbd7bbfd8f956a11c1e590c7ab80049f6.jpg?v=1594019081215");
+    background-size: cover;
+  }
+  
+  .Play .container {
+    background-color: #f6f6f6eb;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding: 0 20px !important;
+  }
+  
+  .Play .try-play div:nth-child(1) img {
+    left: 30px;
+    position: absolute;
+    top: 60px;
+    width: 70px;
+    animation: ride 60s linear 5s forwards;
+  }
+  
+  @keyframes ride {
+    from {
+      left: 30px;
+    }
+    to {
+      left: calc(100% - 90px);
+    }
+  }
+  
+  @keyframes ride-mobile {
+    from {
+      left: 30px !important;
+    }
+    to {
+      left: calc(100% - 70px);
+    }
+  }
+  
+  .Play .try-play .line-race {
+    position: absolute;
+    top: 170px;
+    background-image: url("https://cdn.glitch.com/af45ea57-cc17-431c-a29e-191393077cfe%2Fline.svg?v=1594651722924");
+    width: calc(100% - 40px);
+    height: 5px;
+  }
+  
+  .Play .try-play div:nth-child(3) {
+    position: absolute;
+    top: 210px;
+    width: calc(100% - 40px);
+    font-size: 24px;
+    color: #253e3e;
+  }
+  
+  .Play .try-play input {
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px 2px;
+    border-radius: 5px;
+    color: #253e3e;
+    font-size: 24px;
+    border: 3px solid #446666c7;
+  }
+  
+  .Play .try-play .countdown {
+    font-size: x-large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #253e3e;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+  
+  .green {
+    color: #8bb901;
+  }
+  
+  .red {
+    background-color: lightcoral;
+    color: #253e3e;
+  }
+  
